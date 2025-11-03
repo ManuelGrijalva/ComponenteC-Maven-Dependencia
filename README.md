@@ -155,15 +155,22 @@ Este componente implementa un flujo circular de integración:
 
 ## 📝 Próximos Pasos
 
-1. Subir a repositorio Git con commits trazables
+1. ✅ Subir a repositorio Git con commits trazables
 2. Implementar Componente A (Spring Boot + MariaDB)
 3. Implementar Componente B (Spring Boot + PostgreSQL)
 4. Configurar APIs REST con OpenAPI 3
 5. Integrar con frontend Next.js existente
 
+## 🔗 Repositorios del Proyecto
+
+- **Componente C (Maven):** https://github.com/ManuelGrijalva/ComponenteC-Maven-Dependencia
+- **Frontend (Next.js):** https://github.com/ManuelGrijalva/Intro_Next.js
+- **Componente A:** (Próximamente)
+- **Componente B:** (Próximamente)
+
 ## 👨‍💻 Desarrollo
 
 **Estudiante:** Manuel Grijalva  
 **Proyecto:** Serie II - Examen Final  
-**Curso:** Sistemas Distribuidos  
-**Repositorio:** `ComponenteC-Maven-Dependencia`
+**Curso:** Desarrollo web  
+**Repositorio:** https://github.com/ManuelGrijalva/ComponenteC-Maven-Dependencia 
