@@ -39,7 +39,7 @@ class CalculadoraUtilsTest {
         BigDecimal iva = new BigDecimal("12");
         
         BigDecimal resultado = CalculadoraUtils.calcularTotalConIva(subtotal, iva);
-        assertEquals(new BigDecimal("112.00"), resultado);
+        assertEquals(0, new BigDecimal("112.00").compareTo(resultado));
     }
 
     @Test
@@ -48,7 +48,7 @@ class CalculadoraUtilsTest {
         BigDecimal descuento = new BigDecimal("10");
         
         BigDecimal resultado = CalculadoraUtils.aplicarDescuento(monto, descuento);
-        assertEquals(new BigDecimal("90.00"), resultado);
+        assertEquals(0, new BigDecimal("90.00").compareTo(resultado));
     }
 
     @Test
